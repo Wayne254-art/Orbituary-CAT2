@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= obituary.name %> - Obituary</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><%= obituary.name %></h1>
+        <p><strong>Born:</strong> <%= obituary.date_of_birth %></p>
+        <p><strong>Died:</strong> <%= obituary.date_of_death %></p>
+        <p><%= obituary.content %></p>
+        <p><em>Submitted by: <%= obituary.author %></em></p>
+    </div>
+</body>
+</html>

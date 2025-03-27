@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Obituary</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form action="/submit" method="POST">
+        <h2>Submit an Obituary</h2>
+        <label>Name: <input type="text" name="name" required></label>
+        <label>Date of Birth: <input type="date" name="date_of_birth" required></label>
+        <label>Date of Death: <input type="date" name="date_of_death" required></label>
+        <label>Content: <textarea name="content" required></textarea></label>
+        <label>Author: <input type="text" name="author" required></label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
